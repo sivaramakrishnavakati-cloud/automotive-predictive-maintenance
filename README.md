@@ -60,3 +60,26 @@ and returns a predicted dataset class with probability estimates.
 
 > Note: This is an experimental dataset classification model,
 > not a validated vehicle diagnostic system.
+
+## Application Screenshots
+
+### 1. Streamlit Dashboard
+
+The dashboard allows users to enter engine sensor measurements
+and select a trained machine learning model.
+
+![Streamlit Dashboard](screenshots/dashboard.png)
+
+### 2. Prediction Results
+
+The application displays the predicted dataset class
+and model probability estimates.
+
+![Prediction Results](screenshots/prediction-results.png)
+
+### 3. FastAPI Prediction API
+
+The API accepts engine sensor measurements and returns
+a prediction with probability estimates.
+
+![FastAPI Prediction API](screenshots/api-docs.png)
