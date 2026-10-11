@@ -53,8 +53,6 @@ automotive-predictive-maintenance/
 The FastAPI endpoint accepts engine sensor measurements
 and returns a predicted dataset class with probability estimates.
 
-![FastAPI prediction response](screenshots/api-docs.png)
-
 **Endpoint:** `POST /predict`
 
 **Successful response:** HTTP 200
