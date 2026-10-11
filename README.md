@@ -46,6 +46,7 @@ automotive-predictive-maintenance/
 │   └── test_api.py
 ├── requirements.txt
 └── README.md
+```
 
 ## API Testing
 
