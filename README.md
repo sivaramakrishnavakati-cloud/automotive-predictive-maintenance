@@ -46,3 +46,17 @@ automotive-predictive-maintenance/
 │   └── test_api.py
 ├── requirements.txt
 └── README.md
+
+## API Testing
+
+The FastAPI endpoint accepts engine sensor measurements
+and returns a predicted dataset class with probability estimates.
+
+![FastAPI prediction response](screenshots/api-docs.png)
+
+**Endpoint:** `POST /predict`
+
+**Successful response:** HTTP 200
+
+> Note: This is an experimental dataset classification model,
+> not a validated vehicle diagnostic system.
